@@ -2,7 +2,7 @@ CFLAG = -Wall -Werror -o
 BIN_DIR = bin
 BUILD_DIR = build/src
 SRC_DIR = src
-CC = gcc -m32
+CC = gcc
 DIRGUARD=@mkdir -p $(@D)
 
 SRC = $(wildcard $(SRC_DIR)/*.c)
